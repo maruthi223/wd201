@@ -33,7 +33,7 @@ const todoList = () => {
         const comp = job.completed ? '[x]' : '[ ]';
         const description = job.title;
         const dis_date = job.dueDate === today ? "":`${job.dueDate}`;
-        display +=`${comp} ${description} ${dis_date} \n`;
+        display +=`${comp} ${description} ${dis_date}`;
       })
       return display;
     }
